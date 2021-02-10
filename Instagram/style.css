@@ -1,0 +1,244 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+.insterBody{
+    margin-left: 250px;
+    margin-top: 25px;
+}
+
+.insterLogo{
+    width: 170px;
+    height: 70px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.formCover{
+    position: absolute;
+    top: 50px;
+    right: 330px;
+}
+
+form{
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    margin-top: 12px;
+    width: 350px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+
+.inputBody{
+    background-color: #fafafa;
+    color: #262626;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    width: 260px;
+    height: 38px;
+    padding: 5px 0 13px 0;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    margin-left: 45px;
+    font-size: 14px;
+    position: relative;
+}
+
+.inputBody input{
+    width: 203px;
+    height: 20px;
+    color: #262626;
+    font-size: 16px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    z-index: 1;
+}
+
+.inputBody p{
+    color: #8e8e8e;
+    font-size: 12px;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    transition: 0.5s ease;
+}
+
+.showHide{
+    color: #8e8e8e;
+    font-size: 14px;
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    cursor: pointer;
+    display: none;
+    transition: 0.5s ease;
+}
+
+.loginBtn{
+    width: 260px;
+    padding: 5px 0 5px 8px;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #0094f669;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font: inherit;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.alternative{
+    color: rgba(142,142,142);
+    margin-top: 8px;
+    margin-bottom: 20px;
+    position: relative;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.alternative::before{
+    content: "";
+    width: 100px;
+    height: 1px;
+    display: block;
+    background-color: #dbdbdb;
+    position: absolute;
+    top: 8px;
+    left: 54px;
+}
+
+.alternative::after{
+    content: "";
+    width: 100px;
+    height: 1px;
+    display: block;
+    background-color: #dbdbdb;
+    position: absolute;
+    top: 8px;
+    right: 54px;
+}
+
+
+.faceBookLogin{
+    display: block;
+    text-decoration: none;
+    color: #385185;
+    font-size: inherit;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.forgot{
+    text-decoration: none;
+    color: #1c1cfd;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.signUp{
+    width: 350px;
+    padding: 20px 0 20px 0;
+    margin-top: 10px;
+    text-align: center;
+    background-color: white;
+    color: #262626;
+    border: 1px solid #dbdbdb;
+    font: inherit;
+    font-size: 14px;
+}
+
+
+
+.signUp > p > a{
+    color: #0095f6;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.getApp{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #262626;
+    font-size: 14px;
+    font: inherit;
+}
+
+.appLinks{
+    margin-left: 10px;
+    text-align: center;
+}
+
+.appStore > img{
+    width: 130px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.googlePlay > img{
+    width: 130px;
+    cursor: pointer;
+}
+
+.phone{
+    background-image: url("images/phone.png");
+    background-repeat: no-repeat;
+    background-color: white;
+    height: 618px;
+    position: relative;
+}
+
+.screen{
+    display: flex;
+    position: relative;
+}
+
+.img{
+    margin: 100px 0 0 151px;
+    position: absolute;
+    opacity: 1;
+    transition: 0.4s ease-in;
+    display: none;
+}
+
+.img.fader{
+
+    display: none;
+    animation: fade 5s alternate infinite;
+    transition: linear 1s ease-out;
+}
+
+
+@keyframes fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+ footer a{
+    margin:5px;
+    float: left;
+
+     position: relative;
+     color: #8e8e8e;
+
+ }
+ footer{
+     position: center;
+ }

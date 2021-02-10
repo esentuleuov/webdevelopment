@@ -1,0 +1,151 @@
+
+li.single-link{
+    display:inline;
+    margin:3px;
+    font-size:15px;
+    position: relative;
+    left:200px;
+    bottom:40px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    border: 1px solid transparent;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#product{
+    position: relative;
+    left: 900px;
+    bottom: 75px;
+}
+#logo{
+    margin-top: 7px;
+    max-width: none;
+    width: 108px;
+    padding-left: 70px;
+
+}
+span{
+    position: relative;
+    bottom:75px;
+    left:1000px;
+}
+
+
+form {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    height: 42px;
+    left:350px;
+    bottom:100px;
+}
+input {
+    height: 42px;
+    width: 0;
+    padding: 0 42px 0 15px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    outline: none;
+    background: transparent;
+    transition: .4s cubic-bezier(0, 0.8, 0, 1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+input:focus {
+    width: 300px;
+    z-index: 1;
+    border-bottom: 2px solid #F9F0DA;
+}
+button {
+    background: #a2a0a0;
+    border: none;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #72706d;
+}
+.form{
+    position: absolute;
+    margin-left:70px;
+    border:solid;
+    width: 90%;
+    bottom:150px;
+    height: 500px;
+
+
+}
+#p1{
+position: relative;
+    top:100px;
+    width:500px;
+    left:120px;
+    z-index: 1;
+}
+#p2{
+    font-family: sans-serif;
+    width:300px;
+    font-size: 15px;
+
+}
+h1{
+    position: relative;
+    top:100px;
+    left:120px;
+}
+.form img{
+    position: relative;
+    left:480px;
+    bottom:150px;
+    width:65%;
+}
+
+.photo{
+    position: relative;
+    top:400px;
+}
+.photo-1 {
+    position: relative;
+    top: 100px;
+    left: 350px;
+    width: 400px;
+
+}
+.photo-2{
+    position: relative;
+    bottom:240px;
+    left: 750px;
+    width: 400px;
+
+}
+.photo-3{
+    position: relative;
+    bottom:580px;
+    left:1150px;
+}
+#p3{
+    font-family: sans-serif;
+    width:350px;
+    font-size: 15px;
+}
+#p4{
+    font-family: sans-serif;
+    width:300px;
+    font-size: 15px;
+}
+#p5{
+    font-family: sans-serif;
+    width:300px;
+    font-size: 15px;
+}
+
