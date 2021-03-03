@@ -1,0 +1,35 @@
+<h2 class="title">Details</h2>
+    <div class="products_list" *ngIf="product">
+        <a href="#" *ngIf = "product.imgUrl">
+        <img src="{{product.imgUrl}}" class="product_images">
+    </a>
+
+    <h3>
+        <a [title] = "product.name + ' details'" href="{{product.aliexpressUrl}}" target="_blank">
+        {{ product.name }}
+        </a>
+    </h3>
+
+     <p *ngIf="product.price" class="price">
+        {{ "$" + product.price + ".00"}}
+    </p>
+
+    <p *ngIf="product.rating" class="rate">
+        Rating: {{product.rating}} 
+    </p>
+
+        <p class="product_description">
+            Description: {{ product.description }}
+        </p>
+        
+        <div class="share">
+          <button class="sharet"> <a href="https://telegram.me/share/url?url={{ product.aliexpressUrl }}&text=" target="_blank">Telegram
+    </a></button>
+    <button class="sharew"><a *ngIf="product.aliexpressUrl" href="https://web.whatsapp.com/send?text={{ product.aliexpressUrl }}"  data-action="share/whatsapp/share" target="_blank" class="shareww">
+       Whatsapp
+      </a></button>
+
+        </div>
+        <button (click)="goBack()">go back</button>
+    </div>
+<hr>
