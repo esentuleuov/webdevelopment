@@ -1,0 +1,34 @@
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+} 
+
+.product__name{
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+ul.products{
+    list-style-type: none;
+    margin: 0px 0px 30px 30px;
+    padding: 4px;
+}
+
+ul.products li {
+    display: inline-block; 
+    border: 1px solid #1976d2; 
+    border-radius: 10px;
+    padding: 4px; 
+    font-size: 20px;
+    margin: 10px;
+}
+
+hr{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+button{
+    margin-left: 40px;
+}
